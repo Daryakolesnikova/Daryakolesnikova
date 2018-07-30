@@ -1,0 +1,132 @@
+
+body {
+    margin: 0;
+    font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; 
+    font-weight: 400;
+    background-color: black;
+}
+
+h1 {
+    
+    width: 100%;
+    margin-top: 0px;
+    font-size: 15px;
+    color: black;
+    /*line-height: 100px;*/
+}
+
+h1 span {
+    font-weight: 400;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    padding-left: 30px;
+    padding-top: 6px;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+    z-index: 1000;
+
+}
+
+.header .header-column {
+    width: 50%;
+}
+
+.social-links {
+    position: absolute;
+    display: flex;
+    right: 0;
+    top: 0;
+    margin-top: 6px;
+    z-index: 1001;
+
+}
+
+.header .header-icons {
+    margin-right: 10px;
+    
+}
+
+.icons {
+    width: 20px;
+}
+
+.icon-inst a {
+    display: block;
+}
+
+#pics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.pic {
+    width: 30%;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    font-size: 14px;
+    text-align: right;
+}
+
+@media all and (max-device-width: 768px) {
+    .pic {
+        width: 100%;
+    }
+}
+
+.pic2 {
+    width: 45%;
+}
+
+.pic-full {
+    width: 70%;
+    margin: 100px;
+    
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    /*padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 10px;*/
+    padding-bottom: 70px;
+}
+ 
+.footer-img {  
+    width: 100%;
+}
+
+.footer-text {
+    font-size: 33px;
+    line-height: 46px;
+    padding-left: 30px;
+    width: 100%;
+}
+
+.footer-contact {
+    padding-left: 30px;
+    font-size: 22px;
+    line-height: 39px;
+    color: rgb(165, 165, 165);
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+
+.pic-caption {
+    text-align: left;
+    padding: 5px;
+    color: rgb(175, 175, 175);    
+}
+

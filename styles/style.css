@@ -90,6 +90,14 @@ h1 span {
     
 }
 
+.pic-block {
+    width: 100%;
+}
+
+.pic-block img {
+    width: 30%;
+}
+
 .footer {
     display: flex;
     flex-wrap: wrap;

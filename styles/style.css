@@ -98,6 +98,10 @@ h1 span {
     width: 30%;
 }
 
+.pic-mblock img {
+    width: 70%;
+}
+
 .footer {
     display: flex;
     flex-wrap: wrap;

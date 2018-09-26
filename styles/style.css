@@ -6,16 +6,25 @@ body {
     background-color: black;
 }
 
+a {
+    color: white
+    
+}
+a:visited {
+    color: gray;
+}
 h1 {
     
     width: 100%;
     margin-top: 0px;
-    font-size: 15px;
-    color: black;
+    font-size: 40px;
+    color: white;
+    font-weight: 360;
     /*line-height: 100px;*/
 }
 
 h1 span {
+    font-size: 40px;
     font-weight: 400;
 }
 
@@ -23,7 +32,7 @@ h1 span {
     position: fixed;
     width: 100%;
     display: flex;
-    background-color: white;
+    /* background-color: white; */
     padding-left: 30px;
     padding-top: 6px;
     padding-bottom: 0px;
@@ -41,7 +50,7 @@ h1 span {
     display: flex;
     right: 0;
     top: 0;
-    margin-top: 6px;
+    margin-top: 10px;
     z-index: 1001;
 
 }
@@ -52,12 +61,92 @@ h1 span {
 }
 
 .icons {
-    width: 20px;
+    width: 36px;
 }
 
 .icon-inst a {
     display: block;
 }
+
+.fly-container {
+    position: absolute;
+    width: 75%;
+    height: 300px;
+    left: 100px;
+     top: 1000px; }
+
+.fly-container-1 {
+    position: absolute;
+    width: 75%;
+    height: 300px;
+    left: -111px;
+    top: 1700px; }
+
+.fly-container-2 {
+    position: absolute;
+    width: 75%;
+    height: 300px;
+    left: 30px;
+    top: 3000px; }
+
+.fly-container-3 {
+    position: absolute;
+    width: 75%;
+    height: 300px;
+    left: -10px;
+    top: 4500px; 
+}
+
+.fly-container-4 {
+    position: absolute;
+    width: 75%;
+    height: 300px;
+    left: 580px;
+    top: 5800px; }
+
+
+    .fly-container .eye-1 {
+      position: absolute;
+      z-index: 2;
+      overflow: hidden;
+      width: 20%;
+      left: -100px; }
+      .fly-container .eye-1 img {
+        width: 100%; }
+    .fly-container-1 .finger {
+      position: absolute;
+      z-index: 2;
+      overflow: hidden;
+      width: 20%;
+      left: 700px; }
+      .fly-container-1 .finger img {
+        width: 100%; }
+    .fly-container-2 .eye-2 {
+      position: absolute;
+      z-index: 2;
+      overflow: hidden;
+      width: 20%;
+      left: 800px; }
+      .fly-container-2 .eye-2 img {
+        width: 100%; }
+        
+    .fly-container-3 .heart {
+        position: absolute;
+         z-index: 2;
+         overflow: hidden;
+         width: 20%;
+         left: 150px; }
+         .fly-container-3 .heart img {
+          width: 100%; }
+          
+          .fly-container-4 .broke {
+            position: absolute;
+             z-index: 2;
+             overflow: hidden;
+             width: 30%;
+             left: 150px; }
+             .fly-container-3 .broke img {
+              width: 100%; }
 
 #pics {
     display: flex;
@@ -105,11 +194,11 @@ h1 span {
 .footer {
     display: flex;
     flex-wrap: wrap;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.212);
     /*padding-left: 30px;
     padding-right: 20px;
     padding-top: 10px;*/
-    padding-bottom: 70px;
+    padding-bottom: 20px;
 }
  
 .footer-img {  
@@ -117,17 +206,18 @@ h1 span {
 }
 
 .footer-text {
-    font-size: 33px;
-    line-height: 46px;
+    font-size: 14px;
+    line-height: 28px;
     padding-left: 30px;
-    width: 100%;
+    width: 45%;
+    color: rgb(255, 255, 255);
 }
 
 .footer-contact {
-    padding-left: 30px;
-    font-size: 22px;
-    line-height: 39px;
-    color: rgb(165, 165, 165);
+     padding-left: 55px;
+    font-size: 14px;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
 }
 
 img {
@@ -138,7 +228,8 @@ img {
 
 .pic-caption {
     text-align: left;
+    
     padding: 5px;
-    color: rgb(175, 175, 175);    
+    color: rgb(226, 226, 226);    
 }
 

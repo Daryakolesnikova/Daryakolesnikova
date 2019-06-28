@@ -1,31 +1,31 @@
 
 body {
     margin: 0;
-    font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; 
-    font-weight: 400;
-    background-color: black;
+    font-family:'montserrat', Helvetica, Arial, sans-serif; 
+    font-weight: 300;
+    /*background-color: rgb(238, 238, 221);*/
 }
 
 a {
-    color: white
+    color: rgb(44, 70, 218);
     
 }
 a:visited {
-    color: rgb(136, 136, 136);
+    color: rgb(0, 0, 0);
 }
 h1 {
     
     width: 100%;
     margin-top: 0px;
-    font-size: 40px;
-    color: white;
-    font-weight: 360;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
     /*line-height: 100px;*/
 }
 
 h1 span {
-    font-size: 40px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 300;
 }
 
 .header {
@@ -34,7 +34,7 @@ h1 span {
     display: flex;
     /* background-color: white; */
     padding-left: 30px;
-    padding-top: 6px;
+    padding-top: 15px;
     padding-bottom: 0px;
     box-sizing: border-box;
     z-index: 1000;
@@ -51,17 +51,18 @@ h1 span {
     right: 0;
     top: 0;
     margin-top: 10px;
-    z-index: 1001;
+    z-index: 1000;
 
 }
 
 .header .header-icons {
-    margin-right: 10px;
+    margin-right: 20px;
+    margin-top: 8px;
     
 }
 
 .icons {
-    width: 36px;
+    width: 26px;
 }
 
 .icon-inst a {
@@ -151,15 +152,15 @@ h1 span {
 #pics {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 50px;
+    justify-content: space-between;
+    padding: 30px;
 }
 
 .pic {
-    width: 30%;
-    margin-top: 100px;
+    width: 35%;
+    margin-top: 60px;
     margin-bottom: 40px;
-    font-size: 14px;
+    font-size: 30px;
     text-align: right;
 }
 
@@ -175,8 +176,7 @@ h1 span {
 
 .pic-full {
     width: 70%;
-    margin: 100px;
-    
+    margin: px;
 }
 
 .pic-block {

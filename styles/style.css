@@ -7,11 +7,11 @@ body {
 }
 
 a {
-    color: rgb(44, 70, 218);
+    color: rgb(165, 82, 127);
     
 }
 a:visited {
-    color: rgb(0, 0, 0);
+    color: rgb(165, 82, 127)
 }
 h1 {
     
@@ -28,6 +28,12 @@ h1 span {
     font-weight: 300;
 }
 
+h2 {
+    font-family: 'PT mono';
+    color: rgb(177, 177, 177);
+    font-weight: 100;
+    line-height: 18pt;
+}
 .header {
     position: fixed;
     width: 100%;
@@ -152,15 +158,15 @@ h1 span {
 #pics {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 30px;
+    justify-content: space-around;
+    padding: 100px;
 }
 
 .pic {
-    width: 35%;
-    margin-top: 60px;
-    margin-bottom: 40px;
-    font-size: 30px;
+    width: 40%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 10px;
     text-align: right;
 }
 
@@ -170,25 +176,24 @@ h1 span {
     }
 }
 
-.pic2 {
-    width: 45%;
-}
-
 .pic-full {
     width: 70%;
-    margin: px;
+    margin: 30px;
 }
 
-.pic-block {
-    width: 100%;
-}
-
-.pic-block img {
+.pic-roar {
     width: 30%;
+    margin: 100px;
 }
 
-.pic-mblock img {
-    width: 70%;
+.pic-small {
+    width: 35%;
+    margin: 80px;
+}
+
+.pic-sketch {
+    width: 30%;
+    margin: 200px;
 }
 
 .footer {

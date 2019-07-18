@@ -1,46 +1,58 @@
 
 body {
     margin: 0;
-    font-family:'montserrat', Helvetica, Arial, sans-serif; 
-    font-weight: 300;
-    /*background-color: rgb(238, 238, 221);*/
+    font-family: 'circe', 'montserrat', Helvetica, Arial, sans-serif; 
+    font-size: 20px;
+    
 }
 
 a {
-    color: rgb(165, 82, 127);
-    
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid;
 }
 a:visited {
-    color: rgb(165, 82, 127)
+    color: rgb(110, 110, 110);
+    text-decoration: none;
+    border-bottom: 1px solid;
 }
 h1 {
-    
     width: 100%;
     margin-top: 0px;
-    font-size: 20px;
+    font-size: 17px;
     color: rgb(0, 0, 0);
-    font-weight: 300;
+    font-weight: lighter;
+    /*text-transform: uppercase;
+    letter-spacing: 2px;
     /*line-height: 100px;*/
 }
 
-h1 span {
-    font-size: 20px;
-    font-weight: 300;
+h2 {
+    font-family:'PT mono';
+    color: rgb(177, 177, 177);
+    font-weight: lighter;
+    line-height: 16pt;
+    font-size: 14px;
+}
+h3 {
+    font-family: 'circe';
+    font-size: 30px;
+    /*text-transform: uppercase;*/
+    color: rgb(0, 0, 0);
+    font-weight: lighter;
+    line-height: 36pt;
+    
+    
 }
 
-h2 {
-    font-family: 'PT mono';
-    color: rgb(177, 177, 177);
-    font-weight: 100;
-    line-height: 18pt;
-}
+
 .header {
     position: fixed;
     width: 100%;
     display: flex;
     /* background-color: white; */
     padding-left: 30px;
-    padding-top: 15px;
+    padding-top: 20px;
     padding-bottom: 0px;
     box-sizing: border-box;
     z-index: 1000;
@@ -49,6 +61,18 @@ h2 {
 
 .header .header-column {
     width: 50%;
+}
+
+.menu {
+    position: fixed;
+    width: 20%;
+    display: flex;
+    padding-left: 30px;
+    padding-top: 90px;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+    z-index: 1000;
+    
 }
 
 .social-links {
@@ -68,7 +92,7 @@ h2 {
 }
 
 .icons {
-    width: 26px;
+    width: 25px;
 }
 
 .icon-inst a {
@@ -173,6 +197,11 @@ h2 {
 @media all and (max-device-width: 768px) {
     .pic {
         width: 100%;
+    }
+    .header {
+        font-size: 24px;
+        width: 100%;
+        
     }
 }
 

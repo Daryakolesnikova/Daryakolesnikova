@@ -19,7 +19,7 @@ a:visited {
 h1 {
     width: 100%;
     margin-top: 0px;
-    font-size: 17px;
+    font-size: 20px;
     color: rgb(0, 0, 0);
     font-weight: lighter;
     /*text-transform: uppercase;
@@ -28,14 +28,14 @@ h1 {
 }
 
 h2 {
-    font-family:'PT mono';
+    font-family:'PT mono', 'circe', 'montserrat', Helvetica, Arial, sans-serif; 
     color: rgb(177, 177, 177);
     font-weight: lighter;
     line-height: 16pt;
     font-size: 14px;
 }
 h3 {
-    font-family: 'circe';
+    font-family: 'circe', 'montserrat', Helvetica, Arial, sans-serif; 
     font-size: 30px;
     /*text-transform: uppercase;*/
     color: rgb(0, 0, 0);
@@ -43,6 +43,35 @@ h3 {
     line-height: 36pt;
     
     
+}
+
+@media all and (max-device-width: 768px) {
+    h1 {
+        font-size: 60px;
+        font-weight: normal;
+        color: black;
+    }
+    h2 {
+        line-height: 60pt;
+        font-size: 40px;
+        text-align: right;
+    }
+    h3 {
+        font-size: 60px;
+        line-height: 80px;
+        color: black;
+        font-weight: normal;
+    }
+    a {
+        color: black;
+        text-decoration: none;
+        border-bottom: 2px solid;
+    }
+    a:visited {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        border-bottom: 2px solid;
+    }
 }
 
 
@@ -75,6 +104,20 @@ h3 {
     
 }
 
+@media all and (max-device-width: 768px) {
+    .menu {
+        position: fixed;
+        width: 100%;
+        padding-left: 30px;
+        padding-top: 60px;
+        padding-bottom: 0px;
+        box-sizing: border-box;
+        z-index: 999;
+        
+    }
+}
+
+
 .social-links {
     position: absolute;
     display: flex;
@@ -99,6 +142,15 @@ h3 {
     display: block;
 }
 
+@media all and (max-device-width: 768px) {
+    .icons {
+        width: 100px;
+    }
+    
+    .icon-inst a {
+        display: block;
+    }
+}
 
 #content {
     padding: 55px 200px 100px 240px;
@@ -113,7 +165,6 @@ h3 {
 
 .pic {
     width: 40%;
-    font-size: 10px;
 }
 
 .pic.horizontal {
@@ -125,14 +176,20 @@ h3 {
 }
 
 @media all and (max-device-width: 768px) {
+    #content {
+        padding: 140px 0 0 0;
+    }
+    .pic.horizontal {
+        width: 100%;
+    }
     .pic {
         width: 100%;
     }
-    .header {
-        font-size: 24px;
+    .pic.big {
         width: 100%;
-        
     }
+    
+
 }
 
 

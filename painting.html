@@ -20,7 +20,7 @@
 <body>
 	<div class="header">
 		<div class="header-column">
-			<h1>Daria Kolesnikova</h1>
+			<h1><a href="index.html">Daria Kolesnikova</a></h1>
 		</div>
 		<div class="social-links">
 			<div class="header-icons">
@@ -32,97 +32,40 @@
 	</div>
 
 	<div class="menu">
-		<h3><a href="http://kolesnikova.gallery/portraits.html">Portraits</a><br>
-			<a href="http://kolesnikova.gallery/painting.html">Painting</a><br>
-			<a href="http://kolesnikova.gallery/mix_media.html">Mix media</a><br>
-			<a href="http://kolesnikova.gallery/graphic.html">Graphic</a><br>
-			<a href="http://kolesnikova.gallery/abstraction.html">Abstraction</a><br>
-			<a href="http://kolesnikova.gallery/design.html">Design</a><br>
-			<a href="http://kolesnikova.gallery/photography.html">Photography</a></h3>
+		<h3><a href="portraits.html">Portraits</a><br>
+			<a href="painting.html">Painting</a><br>
+			<a href="mix_media.html">Mix media</a><br>
+			<a href="graphic.html">Graphic</a><br>
+			<a href="abstraction.html">Abstraction</a><br>
+			<a href="design.html">Design</a><br>
+			<a href="photography.html">Photography</a></h3>
 	</div>
 	
-	<div>
-		<h2>Painting</h2>
-	</div>
-	<div id="pics">
-		
-		<div class="pic pic-roar">
-			<img src="img/portraits/girl-roar2.jpg">
-			<div class="pic-caption">
+	<div id="content">
+		<div class="pic-container">
+			<div class="pic big">
+				<img src="img/portraits/girl-roar.jpg">
+				<div class="pic-caption">
+					<h2></h2>	
+				</div>
+			</div>
+			<div class="pic">
+				<img src="img/portraits/girl-roar2.jpg">
+				<div class="pic-caption">
 					<h2>10х15sm, oil. Девочка, нарисованная с  Кейт Мосс (backstage Helmut Lang). 7-го июля 2019 года. Wherever You Are by <a href="https://angusandjuliastone.com/">Angus&Julia Stone</a></h2>	
+				</div>
 			</div>
+			
 		</div>
 
-	
-		
+
+
+
 	</div>
 
-	
-	<!-- Root element of PhotoSwipe. Must have class pswp. -->
-	<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
-		<!-- Background of PhotoSwipe. 
-			It's a separate element as animating opacity is faster than rgba(). -->
-		<div class="pswp__bg"></div>
 
-		<!-- Slides wrapper with overflow:hidden. -->
-		<div class="pswp__scroll-wrap">
 
-			<!-- Container that holds slides. 
-				PhotoSwipe keeps only 3 of them in the DOM to save memory.
-				Don't modify these 3 pswp__item elements, data is added later on. -->
-			<div class="pswp__container">
-				<div class="pswp__item"></div>
-				<div class="pswp__item"></div>
-				<div class="pswp__item"></div>
-			</div>
-
-			<!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-			<div class="pswp__ui pswp__ui--hidden">
-
-				<div class="pswp__top-bar">
-
-					<!--  Controls are self-explanatory. Order can be changed. -->
-
-					<div class="pswp__counter"></div>
-
-					<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-
-					<button class="pswp__button pswp__button--share" title="Share"></button>
-
-					<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-
-					<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-
-					<!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-					<!-- element will get class pswp__preloader--active when preloader is running -->
-					<div class="pswp__preloader">
-						<div class="pswp__preloader__icn">
-						<div class="pswp__preloader__cut">
-							<div class="pswp__preloader__donut"></div>
-						</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-					<div class="pswp__share-tooltip"></div> 
-				</div>
-
-				<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-				</button>
-
-				<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-				</button>
-
-				<div class="pswp__caption">
-					<div class="pswp__caption__center"></div>
-				</div>
-
-			</div>
-
-		</div>
-	</div>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/main.1.js"></script>
 </body>

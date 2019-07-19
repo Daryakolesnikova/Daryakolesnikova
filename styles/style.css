@@ -71,7 +71,7 @@ h3 {
     padding-top: 90px;
     padding-bottom: 0px;
     box-sizing: border-box;
-    z-index: 1000;
+    z-index: 999;
     
 }
 
@@ -99,99 +99,29 @@ h3 {
     display: block;
 }
 
-.fly-container {
-    position: absolute;
-    width: 75%;
-    height: 300px;
-    left: 100px;
-     top: 1000px; }
 
-.fly-container-1 {
-    position: absolute;
-    width: 75%;
-    height: 300px;
-    left: -111px;
-    top: 1700px; }
-
-.fly-container-2 {
-    position: absolute;
-    width: 75%;
-    height: 300px;
-    left: 30px;
-    top: 3000px; }
-
-.fly-container-3 {
-    position: absolute;
-    width: 75%;
-    height: 300px;
-    left: -10px;
-    top: 4500px; 
+#content {
+    padding: 55px 200px 100px 240px;
 }
 
-.fly-container-4 {
-    position: absolute;
-    width: 75%;
-    height: 300px;
-    left: 580px;
-    top: 5800px; }
-
-
-    .fly-container .eye-1 {
-      position: absolute;
-      z-index: 2;
-      overflow: hidden;
-      width: 20%;
-      left: -100px; }
-      .fly-container .eye-1 img {
-        width: 100%; }
-    .fly-container-1 .finger {
-      position: absolute;
-      z-index: 2;
-      overflow: hidden;
-      width: 20%;
-      left: 700px; }
-      .fly-container-1 .finger img {
-        width: 100%; }
-    .fly-container-2 .eye-2 {
-      position: absolute;
-      z-index: 2;
-      overflow: hidden;
-      width: 20%;
-      left: 800px; }
-      .fly-container-2 .eye-2 img {
-        width: 100%; }
-        
-    .fly-container-3 .heart {
-        position: absolute;
-         z-index: 2;
-         overflow: hidden;
-         width: 20%;
-         left: 150px; }
-         .fly-container-3 .heart img {
-          width: 100%; }
-          
-          .fly-container-4 .broke {
-            position: absolute;
-             z-index: 2;
-             overflow: hidden;
-             width: 30%;
-             left: 150px; }
-             .fly-container-3 .broke img {
-              width: 100%; }
-
-#pics {
+.pic-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 100px;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
 }
 
 .pic {
     width: 40%;
-    margin-top: 100px;
-    margin-bottom: 100px;
     font-size: 10px;
-    text-align: right;
+}
+
+.pic.horizontal {
+    width: 100%;
+}
+
+.pic.big {
+    width: 50%;
 }
 
 @media all and (max-device-width: 768px) {
@@ -205,25 +135,6 @@ h3 {
     }
 }
 
-.pic-full {
-    width: 70%;
-    margin: 30px;
-}
-
-.pic-roar {
-    width: 30%;
-    margin: 100px;
-}
-
-.pic-small {
-    width: 35%;
-    margin: 80px;
-}
-
-.pic-sketch {
-    width: 30%;
-    margin: 200px;
-}
 
 .footer {
     display: flex;
@@ -261,8 +172,6 @@ img {
 
 
 .pic-caption {
-    text-align: left;
-    
     padding: 5px;
     color: rgb(226, 226, 226);    
 }

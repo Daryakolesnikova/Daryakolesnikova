@@ -234,8 +234,8 @@ h3 {
         letter-spacing: 0.04em;
         line-height: 50px;
         font-size: 29px;
-        color: #111111;
-        margin-right: 40px;
+        color: rgb(77, 77, 77);
+        margin-right: 65px;
         padding: 8px 70px 50px 60px;
     }
 }
@@ -254,7 +254,15 @@ h3 {
     right: -210px;
     bottom: 0px;
 }
-
+@media all and (max-device-width: 768px) {
+    .vertical_text {
+        font-size: 40px;
+        line-height: 50px;
+        color: rgb(43, 43, 43);
+        right: -575px;
+        bottom: -70px;
+    }
+}
 
 .footer {
     display: flex;

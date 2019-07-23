@@ -233,16 +233,16 @@ h3 {
         margin-right: 50px;
         font-family:'PT mono', 'circe', 'montserrat', Helvetica, Arial, sans-serif; 
         letter-spacing: 0.04em;
-        line-height: 36px;
+        line-height: 1.3em;
         font-size: 35px;
         color: rgb(32, 32, 32);
         font-weight: lighter;
     }
     .pic-caption-only {
         letter-spacing: 0.04em;
-        line-height: 50px;
-        font-size: 29px;
-        color: rgb(77, 77, 77);
+        line-height: 1.3em;
+        font-size: 35px;
+        color: rgb(32, 32, 32);
         margin-right: 65px;
         padding: 8px 70px 50px 60px;
     }

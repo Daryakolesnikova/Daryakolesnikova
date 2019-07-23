@@ -9,18 +9,18 @@ body {
 a {
     color: rgb(110, 110, 110);
     text-decoration: none;
-    /*border-bottom: 1px solid;*/
 }
 a:visited {
     color: rgb(110, 110, 110);
     text-decoration: none;
-    /*border-bottom: 1px solid;*/
 }
 
-a2 {
-    color: rgb(110, 110, 110);
+.underline-link {
+    display: inline-block;
     text-decoration: none;
     border-bottom: 1px solid;
+    padding-bottom: 0px;
+    line-height: 37px;
 }
 
 h1 {
@@ -29,9 +29,6 @@ h1 {
     font-size: 20px;
     color: rgb(0, 0, 0);
     font-weight: lighter;
-    /*text-transform: uppercase;
-    letter-spacing: 2px;
-    /*line-height: 100px;*/
 }
 
 
@@ -76,8 +73,8 @@ h3 {
     width: 100%;
     display: flex;
     /* background-color: white; */
-    padding-left: 30px;
-    padding-top: 14px;
+    padding-left: 25px;
+    padding-top: 18px;
     padding-bottom: 0px;
     box-sizing: border-box;
     z-index: 1000;
@@ -92,8 +89,8 @@ h3 {
     position: fixed;
     width: 10%;
     display: flex;
-    padding-left: 30px;
-    padding-top: 70px;
+    padding-left: 24px;
+    padding-top: 40px;
     padding-bottom: 0px;
     box-sizing: border-box;
     z-index: 999;
@@ -126,7 +123,7 @@ h3 {
     display: flex;
     right: 0;
     top: 0;
-    margin-top: 10px;
+    margin-top: 15px;
     z-index: 1000;
 
 }
@@ -171,7 +168,7 @@ h3 {
 }
 
 #content {
-    padding: 80px 200px 200px 240px;
+    padding: 84px 180px 200px 250px;
 }
 
 .pic-container {
@@ -232,7 +229,7 @@ h3 {
         font-family:'PT mono', 'circe', 'montserrat', Helvetica, Arial, sans-serif; 
         letter-spacing: 0.04em;
         line-height: 36px;
-        font-size: 29px;
+        font-size: 32px;
         color: rgb(68, 68, 68);
         font-weight: lighter;
     }
@@ -265,8 +262,8 @@ h3 {
         font-size: 40px;
         line-height: 50px;
         color: rgb(100, 100, 100);
-        right: -575px;
-        bottom: -90px;
+        right: -583px;
+        bottom: -86px;
     }
 }
 

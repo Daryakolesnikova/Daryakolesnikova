@@ -229,8 +229,8 @@ h3 {
         font-family:'PT mono', 'circe', 'montserrat', Helvetica, Arial, sans-serif; 
         letter-spacing: 0.04em;
         line-height: 36px;
-        font-size: 32px;
-        color: rgb(68, 68, 68);
+        font-size: 35px;
+        color: rgb(32, 32, 32);
         font-weight: lighter;
     }
     .pic-caption-only {
@@ -261,8 +261,8 @@ h3 {
     .vertical_text {
         font-size: 40px;
         line-height: 50px;
-        color: rgb(100, 100, 100);
-        right: -583px;
+        color: rgb(141, 141, 141);
+        right: -589px;
         bottom: -86px;
     }
 }

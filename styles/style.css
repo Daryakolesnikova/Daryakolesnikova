@@ -191,6 +191,10 @@ h3 {
     width: 100%;
 }
 
+.pic.horizontal.little {
+    width: 70%;
+}
+
 .pic.big {
     width: 50%;
 }
@@ -229,6 +233,9 @@ h3 {
     .pic.big {
         width: 100%;
     }
+    .pic.horizontal.little {
+        width: 100%;
+    }
     .pic-caption {
         margin-right: 50px;
         font-family:'PT mono', 'circe', 'montserrat', Helvetica, Arial, sans-serif; 
@@ -264,7 +271,7 @@ h3 {
 }
 @media all and (max-device-width: 768px) {
     .vertical_text {
-        font-size: 40px;
+        font-size:0;
         line-height: 50px;
         color: rgb(141, 141, 141);
         right: -589px;

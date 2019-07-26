@@ -78,7 +78,7 @@ h3 {
     width: 100%;
     display: flex;
     /* background-color: white; */
-    padding-left: 25px;
+    padding-left: 2%;
     padding-top: 18px;
     padding-bottom: 0px;
     box-sizing: border-box;
@@ -94,7 +94,7 @@ h3 {
     position: fixed;
     width: 10%;
     display: flex;
-    padding-left: 24px;
+    padding-left: 2%;
     padding-top: 40px;
     padding-bottom: 0px;
     box-sizing: border-box;
@@ -173,7 +173,7 @@ h3 {
 }
 
 #content {
-    padding: 84px 180px 200px 250px;
+    padding: 84px 13% 200px 17%;
 }
 
 .pic-container {
@@ -207,6 +207,7 @@ h3 {
     font-size: 14px;
     
 }
+
 .pic-caption-only {
     font-family:'PT mono', 'circe', 'montserrat', Helvetica, Arial, sans-serif; 
     color: rgb(177, 177, 177);

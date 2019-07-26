@@ -267,3 +267,16 @@ img {
     color: rgb(226, 226, 226);    
 }
 
+
+.phsw figure {
+    display: inline-block;
+    margin: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.phsw figure a img {
+        width: auto;
+        height: 60px;
+}
+

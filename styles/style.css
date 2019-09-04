@@ -109,7 +109,7 @@ h1 {
     padding-left: 3%;
     padding-top: 590px;
     box-sizing: border-box;
-    z-index: 999;
+    z-index: 997;
 }
 
 @media all and (max-device-width: 768px) {
@@ -183,7 +183,7 @@ h1 {
 }
 
 #content {
-    padding: 0px 0px 200px 0%;
+    padding: 100px 13% 200px 20%;
 }
 
 .pic-container {
@@ -202,6 +202,10 @@ h1 {
     text-align: center;
 }
 
+#home-pic {
+    padding: 0px 0% 0px 0%;
+}
+
 .pic.horizontal.little {
     width: 70%;
 }
@@ -215,7 +219,6 @@ h1 {
     color: rgb(0, 0, 0);
     font-weight: ;
     line-height: 16pt;
-    padding-left: 10px;
 }
 
 .pic-caption-only {

@@ -1,17 +1,17 @@
 
 body {
     margin: 0;
-    font-family: 'circe', 'montserrat', Helvetica, Arial, sans-serif; 
-    
+    font-family: 'montserrat', 'Helvetica', 'Arial', 'sans-serif'; 
+    font-size: 13px;
     
 }
 
 a {
-    color: rgb(110, 110, 110);
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 a:visited {
-    color: rgb(110, 110, 110);
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
@@ -23,22 +23,15 @@ a:visited {
 }
 
 h1 {
+    text-transform: uppercase;
     width: 100%;
     margin-top: 0px;
-    font-size: 20px;
+    font-size: 18px;
     color: rgb(0, 0, 0);
-    font-weight: lighter;
+    font-weight: bolder;
 }
 
 
-h3 {
-    font-family: 'circe', 'montserrat', Helvetica, Arial, sans-serif; 
-    font-size: 30px;
-    /*text-transform: uppercase;*/
-    color: rgb(0, 0, 0);
-    font-weight: lighter;
-    line-height: 36pt;
-}
 
 @media all and (max-device-width: 768px) {
     h1 {
@@ -78,8 +71,8 @@ h3 {
     width: 100%;
     display: flex;
     /* background-color: white; */
-    padding-left: 2%;
-    padding-top: 18px;
+    padding-left: 3%;
+    padding-top: 40px;
     padding-bottom: 0px;
     box-sizing: border-box;
     z-index: 1000;
@@ -92,14 +85,31 @@ h3 {
 
 .menu {
     position: fixed;
-    width: 10%;
+    width: 20%;
     display: flex;
-    padding-left: 2%;
-    padding-top: 40px;
+    padding-left: 3%;
+    padding-top: 70px;
     padding-bottom: 0px;
     box-sizing: border-box;
     z-index: 999;
+
+    font-family: 'montserrat', 'Helvetica', 'Arial', 'sans-serif'; 
+    font-size: 27px;
+    color: rgb(0, 0, 0);
+    line-height: 28pt;
+    font-weight: lighter;
+    text-transform: uppercase;
     
+}
+
+.about {
+    position: fixed;
+    width: 20%;
+    display: flex;
+    padding-left: 3%;
+    padding-top: 590px;
+    box-sizing: border-box;
+    z-index: 999;
 }
 
 @media all and (max-device-width: 768px) {
@@ -128,13 +138,13 @@ h3 {
     display: flex;
     right: 0;
     top: 0;
-    margin-top: 15px;
+    margin-top: 40px;
     z-index: 1000;
 
 }
 
 .header .header-icons {
-    margin-right: 20px;
+    margin-right: 40px;
     margin-top: 8px;
     
 }
@@ -173,7 +183,7 @@ h3 {
 }
 
 #content {
-    padding: 84px 13% 200px 17%;
+    padding: 0px 0px 200px 0%;
 }
 
 .pic-container {
@@ -189,6 +199,7 @@ h3 {
 
 .pic.horizontal {
     width: 100%;
+    text-align: center;
 }
 
 .pic.horizontal.little {
@@ -200,12 +211,11 @@ h3 {
 }
 
 .pic-caption {
-    font-family:'PT mono', 'circe', 'montserrat', Helvetica, Arial, sans-serif; 
-    color: rgb(177, 177, 177);
-    font-weight: lighter;
-    line-height: 18pt;
-    font-size: 14px;
-    
+    font-family: 'PT mono', 'montserrat', 'Helvetica', 'Arial', 'sans-serif';  
+    color: rgb(0, 0, 0);
+    font-weight: ;
+    line-height: 16pt;
+    padding-left: 10px;
 }
 
 .pic-caption-only {

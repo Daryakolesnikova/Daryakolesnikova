@@ -103,15 +103,18 @@ h1 {
 }
 
 .about {
-    position: fixed;
+    position: absolute;
     width: 20%;
-    display: flex;
+    display: block;
     padding-left: 3%;
-    padding-top: 590px;
+    padding-top: 550px;
     box-sizing: border-box;
     z-index: 997;
 }
-
+.avatar {
+    width: 45px;
+    margin-bottom: 25px;
+}
 @media all and (max-device-width: 768px) {
     .menu {
         display: flex;
@@ -217,7 +220,6 @@ h1 {
 .pic-caption {
     font-family: 'PT mono', 'montserrat', 'Helvetica', 'Arial', 'sans-serif';  
     color: rgb(0, 0, 0);
-    font-weight: ;
     line-height: 16pt;
 }
 

@@ -287,7 +287,7 @@ h1 {
 }
 @media all and (max-device-width: 768px) {
     .vertical_text {
-        font-size:0;
+        font-size: 0;
         line-height: 50px;
         color: rgb(141, 141, 141);
         right: -589px;
@@ -295,6 +295,14 @@ h1 {
     }
 }
 
+.design-link {
+    margin-top: -100px;
+    font-size: 140px;   
+}   
+
+/*a:hover {
+    color: #00e7d4;
+} */ 
 .footer {
     display: flex;
     flex-wrap: wrap;
@@ -341,3 +349,4 @@ img {
         width: auto;
         height: 60px;
 }
+

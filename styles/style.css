@@ -244,15 +244,15 @@ h3 {
         margin-right: 50px;
         font-family: 'montserrat', Helvetica, Arial, sans-serif; 
         letter-spacing: 0.04em;
-        line-height: 3.3em;
-        font-size: 20px;
+        line-height: 1.3em;
+        font-size: 30px;
         color: rgb(0, 0, 0);
     }
     
     .pic-caption-only {
         letter-spacing: 0.04em;
-        line-height: 3.3em;
-        font-size: 20px;
+        line-height: 1.3em;
+        font-size: 30px;
         color: rgb(0, 0, 0);
         margin-right: 65px;
         padding: 8px 70px 50px 60px;
